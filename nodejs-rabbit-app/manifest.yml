@@ -1,0 +1,9 @@
+---
+applications:
+- name: rabbitjs-demo
+  memory: 64M
+  command: node ./app.js
+  buildpack: nodejs_buildpack
+  health-check-type: none
+  services:
+    - rabbitmq
