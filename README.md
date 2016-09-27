@@ -9,9 +9,15 @@
 
 ``` cf help ```
 
-``` cf push ```
+``` cf apps ```
+
+``` cf logs <app-name> --recent ```
 
 ``` cf app <app-name> ```
+
+``` cf env <app-name> ```
+
+``` cf push ```
 
 ``` cf ```
 
