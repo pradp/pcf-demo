@@ -11,6 +11,18 @@
 cf help 
 ```
 
+```
+cf login -a <api-target-url>
+```
+
+```
+cf orgs
+```
+
+```
+cf spaces
+```
+
 ``` 
 cf apps 
 ```
