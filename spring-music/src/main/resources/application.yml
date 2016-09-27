@@ -1,0 +1,16 @@
+---
+spring:
+  profiles: default
+  jpa:
+    generate-ddl: true
+---
+spring:
+  profiles: mysql-local
+  jpa:
+    generate-ddl: true
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect  
+---
+spring:
+  profiles: cloud
+  jpa:
+    generate-ddl: true    
