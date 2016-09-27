@@ -4,6 +4,4 @@ applications:
   memory: 1G
   random-route: true
   path: build/libs/spring-music.jar
-  services:
-    - whizkey-db-01
 
